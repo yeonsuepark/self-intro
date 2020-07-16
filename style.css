@@ -3,6 +3,7 @@
     margin: 0;
     padding: 0;
     font-family: 'Song Myung', serif;
+
 }
 
 a {
@@ -16,10 +17,11 @@ img {
 
 /* 상단 메뉴바 */
 #navbar {
-    box-shadow: 0px 1px 3px rgb(207, 207, 207);
-    background-color: white;
     position: fixed;
     width: 100%;
+    margin: 0;
+    box-shadow: 0px 1px 3px rgb(207, 207, 207);
+    background-color: white;
 }
 
 #navbar:after {
@@ -32,5 +34,27 @@ img {
     float: left;
     padding: 10px 15px;
     text-align: center;
-    font-size: 1.5rem;
+    font-size: 1.1rem;
+}
+
+/* 간단 페이지 소개 */
+#welcome {
+    display: block;
+    height: 600px;
+    padding-top: 200px;
+}
+
+.welcome-item {
+    text-align: center;
+}
+
+.welcome-item.eng {
+    font-weight: bold;
+    font-size: 4rem;
+    padding-bottom: 20px;
+
+}
+
+.welcome-item.kor {
+    font-size: 1.7rem;
 }

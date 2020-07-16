@@ -40,7 +40,7 @@ img {
 /* 간단 페이지 소개 */
 #welcome {
     display: block;
-    height: 600px;
+    height: 550px;
     padding-top: 200px;
 }
 
@@ -49,12 +49,45 @@ img {
 }
 
 .welcome-item.eng {
+    padding-bottom: 20px;
     font-weight: bold;
     font-size: 4rem;
-    padding-bottom: 20px;
-
 }
 
 .welcome-item.kor {
     font-size: 1.7rem;
+    color: rgb(95, 95, 95);
+}
+
+/* 자기소개 파트 */
+#main {
+
+}
+
+.who-title {
+    padding: 10px 50px;
+    font-weight: bold;
+    font-size: 1.4rem;
+}
+
+.who-box {
+
+}
+
+.box-title {
+
+}
+
+.box-content {
+
+}
+
+/* 자기소개 1: 과거편 */
+.who-was {
+    background-color: rgb(255, 231, 231);
+}
+
+.who-was .who-title {
+    color: rgb(216, 139, 139);
+    background-color: white;
 }

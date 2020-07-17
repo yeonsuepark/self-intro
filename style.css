@@ -42,6 +42,7 @@ img {
 #welcome {
     display: block;
     height: 550px;
+    min-width: 640px;
     padding-top: 200px;
 }
 
@@ -75,6 +76,7 @@ img {
 
 .who-main {
     padding: 20px 70px;
+    min-width: 820px;
 }
 
 .who-box {
@@ -91,16 +93,15 @@ img {
 }
 
 .box.title {
-    width: 220px;
+    width: 230px;
     font-weight: bold;
     font-size: 1.5rem;
 }
 
 .box.content {
-    width: 720px;
+    width: 770px;
     font-size: 1.2rem;
-
-
+}
 
 /* 자기소개 1: 과거편 */
 .who-main.was {
@@ -111,11 +112,18 @@ img {
 /* 자기소개 2: 현재편 */
 .who-main.am {
     background-color: rgb(241, 241, 241);  
-
 }
 
 
 /* 자기소개 3: 미래편 */
 .who-main.will {
     background-color: rgb(253, 249, 255);
+}
+
+/* 하단 Footer */
+#footer {
+    padding: 20px;
+    text-align: center;
+    font-size: 1.1rem;
+    color: rgb(95, 95, 95);
 }

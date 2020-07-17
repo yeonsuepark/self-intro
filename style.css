@@ -3,7 +3,7 @@
     margin: 0;
     padding: 0;
     font-family: 'Song Myung', serif;
-
+    /*border: 1px solid green;*/
 }
 
 a {
@@ -13,6 +13,7 @@ a {
 
 img {
     width: 200px;
+    float: left;
 }
 
 /* 상단 메뉴바 */
@@ -65,29 +66,56 @@ img {
 }
 
 .who-title {
-    padding: 10px 50px;
+    padding: 30px 50px 10px;
     font-weight: bold;
-    font-size: 1.4rem;
+    font-size: 1.7rem;
+    color: black;
+    text-align: center;
+}
+
+.who-main {
+    padding: 20px 70px;
 }
 
 .who-box {
-
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 230px;
+    padding-top: 15px;
+    padding-bottom: 15px; //자동으로 상하 가운데정렬 시키는 방법 없을까?
 }
 
-.box-title {
-
+.box {
+    padding: 10px 20px;
 }
 
-.box-content {
-
+.box.title {
+    width: 220px;
+    font-weight: bold;
+    font-size: 1.5rem;
 }
+
+.box.content {
+    width: 720px;
+    font-size: 1.2rem;
+
+
 
 /* 자기소개 1: 과거편 */
-.who-was {
-    background-color: rgb(255, 231, 231);
+.who-main.was {
+    background-color: rgb(255, 242, 242);
 }
 
-.who-was .who-title {
-    color: rgb(216, 139, 139);
-    background-color: white;
+
+/* 자기소개 2: 현재편 */
+.who-main.am {
+    background-color: rgb(241, 241, 241);  
+
+}
+
+
+/* 자기소개 3: 미래편 */
+.who-main.will {
+    background-color: rgb(253, 249, 255);
 }
